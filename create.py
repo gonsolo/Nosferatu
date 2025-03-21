@@ -9,15 +9,19 @@ notes += "  \\set Staff.midiInstrument = \"tenor sax\"\n"
 notes += "  { "
 notes += "\\time 3/4\n"
 notes += "\\tempo 4. = 96\n"
-theme = ""
+theme = " "
 for i in 'Nosferatu'.lower():
     o = ord(i) - ord('a') # get number in alphabet
     o  %= 8 # get back to a - h
     c = chr(o + ord('a')) # get char again
     theme += c
     theme += " "
+
+krebs = theme[::-1]
+
 for _ in range(4):
     notes += theme
+    notes += krebs
 notes += " }\n"
 
 notes += " }\n" # Staff
