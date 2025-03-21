@@ -34,10 +34,10 @@ umkehrung = kehr_um(theme)
 krebs_umkehrung = kehr_um(krebs)
 
 for _ in range(4):
-    #notes += theme
-    #notes += krebs
-    #notes += umkehrung
-    notes += krebs_umkehrung
+    notes += theme + "\n"
+    notes += krebs + "\n"
+    notes += umkehrung + "\n"
+    notes += krebs_umkehrung + "\n"
 notes += " }\n"
 
 notes += " }\n" # Staff
