@@ -19,9 +19,25 @@ for i in 'Nosferatu'.lower():
 
 krebs = theme[::-1]
 
+
+def kehr_um(thema):
+    tonleiter = "abcdefg "
+    umkehrung = " "
+    for i in thema:
+        index = tonleiter.find(i)
+        index = 6 - index
+        if index > -1:
+            umkehrung += tonleiter[index] + " "
+    return umkehrung
+
+umkehrung = kehr_um(theme)
+krebs_umkehrung = kehr_um(krebs)
+
 for _ in range(4):
-    notes += theme
-    notes += krebs
+    #notes += theme
+    #notes += krebs
+    #notes += umkehrung
+    notes += krebs_umkehrung
 notes += " }\n"
 
 notes += " }\n" # Staff
