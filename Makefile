@@ -10,4 +10,4 @@ play_video: Nosferatu.sub
 Nosferatu.sub:
 	python ./generate_subtitles.py
 clean:
-	rm -f nosferatu.ly
+	rm -f nosferatu.ly nosferatu.midi Nosferatu.sub
