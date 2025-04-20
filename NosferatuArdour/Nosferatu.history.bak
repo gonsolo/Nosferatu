@@ -1,53 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1739893232" tv-usec="712872" name="Note hinzufügen">
-    <NoteDiffCommand midi-source="2126">
-      <ChangedNotes/>
-      <AddedNotes>
-        <note id="263" note="36" channel="0" time="2:0" length="2:0" velocity="64"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="268" left-frame="0" y-origin="64">
-        <Selection/>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="268" left-frame="0" y-origin="64">
-        <Selection>
-          <Regions>
-            <Region id="2131"/>
-          </Regions>
-          <MIDINotes region-id="2131">
-            <note note-id="263"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
-  <UndoTransaction tv-sec="1739893309" tv-usec="643483" name="Note hinzufügen">
-    <NoteDiffCommand midi-source="2126">
-      <ChangedNotes/>
-      <AddedNotes>
-        <note id="376" note="48" channel="0" time="4:0" length="0:480" velocity="64"/>
-      </AddedNotes>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseDraw" zoom="268" left-frame="0" y-origin="64">
-        <Selection/>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseDraw" zoom="268" left-frame="0" y-origin="64">
-        <Selection>
-          <Regions>
-            <Region id="2131"/>
-          </Regions>
-          <MIDINotes region-id="2131">
-            <note note-id="376"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1739893312" tv-usec="103616" name="Note hinzufügen">
     <NoteDiffCommand midi-source="2126">
       <ChangedNotes/>
@@ -489,6 +441,59 @@
             <Region id="2229"/>
           </Regions>
           <Marker id="2241" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1745137844" tv-usec="571069" name="Region ziehen">
+    <StatefulDiffCommand obj-id="5546" type-name="ARDOUR::MidiRegion">
+      <Changes>
+        <length from="b15360@b19200" to="b15360@b0"/>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseObject" zoom="1072" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="5546"/>
+          </Regions>
+          <Marker id="2241" start="1"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseObject" zoom="1072" left-frame="0" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="5546"/>
+          </Regions>
+          <Marker id="2241" start="1"/>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1745137867" tv-usec="875259" name="Auswahl löschen">
+    <NoteDiffCommand midi-source="5544">
+      <ChangedNotes/>
+      <AddedNotes/>
+      <RemovedNotes>
+        <note id="32" note="48" channel="0" time="0:0" length="0:480" velocity="64"/>
+      </RemovedNotes>
+    </NoteDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseContent" zoom="134" left-frame="4291" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="5546"/>
+          </Regions>
+          <MIDINotes region-id="5546">
+            <note note-id="32"/>
+          </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseContent" zoom="134" left-frame="4291" y-origin="0">
+        <Selection>
+          <Regions>
+            <Region id="5546"/>
+          </Regions>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
