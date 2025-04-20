@@ -1,36 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <UndoHistory>
-  <UndoTransaction tv-sec="1745137880" tv-usec="142422" name="Noten verschieben">
-    <NoteDiffCommand midi-source="5544">
-      <ChangedNotes>
-        <Change property="StartTime" old="1:480" new="0:0" id="72"/>
-      </ChangedNotes>
-      <AddedNotes/>
-      <RemovedNotes/>
-    </NoteDiffCommand>
-    <MementoCommand obj-id="50" type-name="SelectionMemento">
-      <SelectionMemento mouse-mode="MouseContent" zoom="134" left-frame="4291" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="5546"/>
-          </Regions>
-          <MIDINotes region-id="5546">
-            <note note-id="72"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-      <SelectionMemento mouse-mode="MouseContent" zoom="134" left-frame="4291" y-origin="0">
-        <Selection>
-          <Regions>
-            <Region id="5546"/>
-          </Regions>
-          <MIDINotes region-id="5546">
-            <note note-id="72"/>
-          </MIDINotes>
-        </Selection>
-      </SelectionMemento>
-    </MementoCommand>
-  </UndoTransaction>
   <UndoTransaction tv-sec="1745137887" tv-usec="413777" name="Auswahl löschen">
     <NoteDiffCommand midi-source="5544">
       <ChangedNotes/>
@@ -534,6 +503,27 @@
           <MIDINotes region-id="8051">
             <note note-id="5767"/>
           </MIDINotes>
+        </Selection>
+      </SelectionMemento>
+    </MementoCommand>
+  </UndoTransaction>
+  <UndoTransaction tv-sec="1745142213" tv-usec="173283" name="Datei einfügen">
+    <StatefulDiffCommand obj-id="12964" type-name="ARDOUR::AudioPlaylist">
+      <Changes>
+        <Regions>
+          <Add id="12976"/>
+        </Regions>
+      </Changes>
+    </StatefulDiffCommand>
+    <MementoCommand obj-id="50" type-name="SelectionMemento">
+      <SelectionMemento mouse-mode="MouseDraw" zoom="3486" left-frame="0" y-origin="0">
+        <Selection>
+          <StripableView id="12817"/>
+        </Selection>
+      </SelectionMemento>
+      <SelectionMemento mouse-mode="MouseDraw" zoom="3486" left-frame="0" y-origin="0">
+        <Selection>
+          <StripableView id="12902"/>
         </Selection>
       </SelectionMemento>
     </MementoCommand>
